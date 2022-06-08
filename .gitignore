@@ -7,3 +7,8 @@
 *.Cache
 El_Kosier/obj/x86/Debug/ar/El_Kosier.resources.dll
 *.dll
+*.ide-shm
+*.lock
+*.ide-wal
+*.ide
+El_Kosier/env.cs

@@ -58,6 +58,8 @@
     <Compile Include="Adding Groups.Designer.cs">
       <DependentUpon>Adding Groups.cs</DependentUpon>
     </Compile>
+    <Compile Include="env.cs" />
+    <Compile Include="envExample.cs" />
     <Compile Include="Student Data.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -170,6 +172,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\5166950.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Model\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
